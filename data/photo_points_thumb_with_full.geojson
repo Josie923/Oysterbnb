@@ -1,0 +1,605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0051.JPG",
+        "thumb": "photo/thumbs/IMG_0051.JPG",
+        "full": "photo/IMG_0051.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93591944444445,
+          40.79102777777778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0045.JPG",
+        "thumb": "photo/thumbs/IMG_0045.JPG",
+        "full": "photo/IMG_0045.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9372388888889,
+          40.78909722222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0054.JPG",
+        "thumb": "photo/thumbs/IMG_0054.JPG",
+        "full": "photo/IMG_0054.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9356138888889,
+          40.79130277777777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0044.JPG",
+        "thumb": "photo/thumbs/IMG_0044.JPG",
+        "full": "photo/IMG_0044.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93725555555557,
+          40.78906666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0056.JPG",
+        "thumb": "photo/thumbs/IMG_0056.JPG",
+        "full": "photo/IMG_0056.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93528611111111,
+          40.79158333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0039.JPG",
+        "thumb": "photo/thumbs/IMG_0039.JPG",
+        "full": "photo/IMG_0039.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93942222222222,
+          40.78575555555555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0046.JPG",
+        "thumb": "photo/thumbs/IMG_0046.JPG",
+        "full": "photo/IMG_0046.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936775,
+          40.789902777777776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0042.JPG",
+        "thumb": "photo/thumbs/IMG_0042.JPG",
+        "full": "photo/IMG_0042.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93783611111111,
+          40.78779722222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0043.JPG",
+        "thumb": "photo/thumbs/IMG_0043.JPG",
+        "full": "photo/IMG_0043.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93769722222223,
+          40.78783611111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_9995.JPG",
+        "thumb": "photo/thumbs/IMG_9995.JPG",
+        "full": "photo/IMG_9995.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94254444444445,
+          40.77761111111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0009.JPG",
+        "thumb": "photo/thumbs/IMG_0009.JPG",
+        "full": "photo/IMG_0009.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94215277777778,
+          40.777027777777775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_9996.JPG",
+        "thumb": "photo/thumbs/IMG_9996.JPG",
+        "full": "photo/IMG_9996.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94254444444445,
+          40.77760555555555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0005.JPG",
+        "thumb": "photo/thumbs/IMG_0005.JPG",
+        "full": "photo/IMG_0005.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94236111111111,
+          40.77716111111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_9998.JPG",
+        "thumb": "photo/thumbs/IMG_9998.JPG",
+        "full": "photo/IMG_9998.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94253611111111,
+          40.777594444444446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0033.JPG",
+        "thumb": "photo/thumbs/IMG_0033.JPG",
+        "full": "photo/IMG_0033.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94198611111112,
+          40.78415277777778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0001.JPG",
+        "thumb": "photo/thumbs/IMG_0001.JPG",
+        "full": "photo/IMG_0001.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94246666666668,
+          40.77717222222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0031.JPG",
+        "thumb": "photo/thumbs/IMG_0031.JPG",
+        "full": "photo/IMG_0031.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94374722222223,
+          40.78275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0008.JPG",
+        "thumb": "photo/thumbs/IMG_0008.JPG",
+        "full": "photo/IMG_0008.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94216944444445,
+          40.77706111111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0028.JPG",
+        "thumb": "photo/thumbs/IMG_0028.JPG",
+        "full": "photo/IMG_0028.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94377222222222,
+          40.78241111111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0004.JPG",
+        "thumb": "photo/thumbs/IMG_0004.JPG",
+        "full": "photo/IMG_0004.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94236944444445,
+          40.777141666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0027.JPG",
+        "thumb": "photo/thumbs/IMG_0027.JPG",
+        "full": "photo/IMG_0027.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94373333333334,
+          40.78234444444444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0231.JPG",
+        "thumb": "photo/thumbs/IMG_0231.JPG",
+        "full": "photo/IMG_0231.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92728611111112,
+          40.79076388888889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0217.JPG",
+        "thumb": "photo/thumbs/IMG_0217.JPG",
+        "full": "photo/IMG_0217.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92788055555556,
+          40.79099444444444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0216.JPG",
+        "thumb": "photo/thumbs/IMG_0216.JPG",
+        "full": "photo/IMG_0216.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92784166666667,
+          40.79104722222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0214.JPG",
+        "thumb": "photo/thumbs/IMG_0214.JPG",
+        "full": "photo/IMG_0214.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92785555555557,
+          40.79118611111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0210.JPG",
+        "thumb": "photo/thumbs/IMG_0210.JPG",
+        "full": "photo/IMG_0210.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92742222222223,
+          40.79138611111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0221.JPG",
+        "thumb": "photo/thumbs/IMG_0221.JPG",
+        "full": "photo/IMG_0221.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928025,
+          40.790863888888886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0241.JPG",
+        "thumb": "photo/thumbs/IMG_0241.JPG",
+        "full": "photo/IMG_0241.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92669722222223,
+          40.790663888888886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0232.JPG",
+        "thumb": "photo/thumbs/IMG_0232.JPG",
+        "full": "photo/IMG_0232.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92728611111112,
+          40.790752777777776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0203.JPG",
+        "thumb": "photo/thumbs/IMG_0203.JPG",
+        "full": "photo/IMG_0203.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92637777777779,
+          40.79202222222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0186.JPG",
+        "thumb": "photo/thumbs/IMG_0186.JPG",
+        "full": "photo/IMG_0186.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95418611111111,
+          40.75863888888889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0239.JPG",
+        "thumb": "photo/thumbs/IMG_0239.JPG",
+        "full": "photo/IMG_0239.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92686388888889,
+          40.79072222222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0182.JPG",
+        "thumb": "photo/thumbs/IMG_0182.JPG",
+        "full": "photo/IMG_0182.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95506944444445,
+          40.75793888888889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0184.JPG",
+        "thumb": "photo/thumbs/IMG_0184.JPG",
+        "full": "photo/IMG_0184.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954475,
+          40.75873611111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0176.JPG",
+        "thumb": "photo/thumbs/IMG_0176.JPG",
+        "full": "photo/IMG_0176.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95566388888889,
+          40.75705277777778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_0177.JPG",
+        "thumb": "photo/thumbs/IMG_0177.JPG",
+        "full": "photo/IMG_0177.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95565,
+          40.75709444444445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_6999.JPG",
+        "thumb": "photo/thumbs/IMG_6999.JPG",
+        "full": "photo/IMG_6999.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96470555555555,
+          40.72100833333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_9351.JPG",
+        "thumb": "photo/thumbs/IMG_9351.JPG",
+        "full": "photo/IMG_9351.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97174722222222,
+          40.572988888888894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_8137.JPG",
+        "thumb": "photo/thumbs/IMG_8137.JPG",
+        "full": "photo/IMG_8137.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96700277777778,
+          40.716166666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "image": "photo/IMG_6909.JPG",
+        "thumb": "photo/thumbs/IMG_6909.JPG",
+        "full": "photo/IMG_6909.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96405833333334,
+          40.721202777777776
+        ]
+      }
+    }
+  ]
+}
