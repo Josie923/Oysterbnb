@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MapLibre Template</title>
+  <!-- Load MapLibre GL JS -->
+  <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script> <!-- fireworks -->
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- 🦪 -->
+  <div id="start-screen">
+  <h1>oysterbnb</h1>
+  <h2>贝壳找房</h2>
+  <img src="img/Oyster01.gif" alt="oyster animation" id="start-button" class="start-gif">
+</div>
+
+  <div class="container">
+    <!-------------------------- Left：sidebar -->
+    <div class="sidebar">
+      <h1>You Are An Oyster.</h1>
+      <h1>Pick Your Home!</h1>      
+      <p><strong>Need help?</strong> </p>
+      </p>Check the </a>
+      <select id="hexbin-select">
+        <option value="">👆🏼Select a Layer</option>
+       <option value="Max_Bottom_Salinity">Max Salinity</option>
+       <option value="Min_Bottom_Salinity">Min Salinity</option>
+       <option value="Max_Bottom_pH">Max pH</option>
+       <option value="Min_Bottom_pH">Min pH</option>
+       <option value="Max_Bottom_Temp">Max Temp</option>
+       <option value="Min_Bottom_DO">Min DO</option>
+      </select>
+      </p>
+
+    </div>
+
+    <div id="sidebar-detail" class="sidebar-view" style="display: none;">
+      <p><a href="#" onclick="backToHome()" class="back-link">< Back</a></p>
+      <h1>Congratulations! </h1>
+      <h1 id="score-line">You beat <span style="color: #007bff;">60%</span> of oysters!</h1>
+      <h2 id="point-desc">Loading...</h2>
+      <div id="oyster-comment-list">
+      <details>
+        <summary id="temp-comment"></summary>
+        <p id="temp-detail"></p>
+      </details>
+      <details>
+        <summary id="do-comment"></summary>
+        <p id="do-detail"></p>
+      </details>
+      <details>
+        <summary id="salinity-comment"></summary>
+        <p id="salinity-detail"></p>
+      </details>
+      <details>
+        <summary id="ph-comment"></summary>
+        <p id="ph-detail"></p>
+      </details>
+      <details>
+        <summary id="depth-comment"></summary>
+        <p id="depth-detail"></p>
+      </details>
+      <img src="img/Oyster02.gif" alt="Learn more" class="learn-more-gif" onclick="showAbout()">
+    </div>
+
+
+
+    </div>
+
+    <div id="sidebar-fail" class="sidebar-view" style="display: none;">
+      <p><a href="#" onclick="backToHome()" class="back-link">< Back</a></p>
+      <h1>Oops!🤭🫢</h1>
+      <h1>There's no water! You can't survive!</h1>
+      <h1>Try again!</h1>
+    </div>
+
+    <div id="sidebar-sorry" class="sidebar-view" style="display: none;">
+      <p><a href="#" onclick="backToHome()" class="back-link">< Back</a></p>
+      <h1>Sorry!😖</h1>
+      <h1>This area is unknown. </h1>
+    </div>
+
+    <div id="sidebar-about" class="sidebar-view" style="display: none;">
+  <p><a href="#" onclick="backToHome()" class="back-link">< Back</a></p>
+
+  <details>
+    <summary><h1>Oyster in New York</h1></summary>
+    <p><strong>New York: The Big Oyster</strong></p>
+    <p>  A long time ago, <a href="https://www.billionoysterproject.org/harbor-history" class="plain-link" target="_blank">New York Harbor</a> was full of oysters. There were so many that people called the city The Big Oyster. Most of them were Eastern oysters (<em>Crassostrea virginica</em>). These oysters helped clean the water, protect the shoreline, and support marine life. One oyster can filter about 50 gallons of water each day. Oyster reefs made the harbor healthier and stronger.</p>
+    <img src="img/Oysters_Newyork.png" alt="EasternOysterNewYork" style="max-width:100%; height:auto; margin-top:10px;">
+    <p><strong>What is an Eastern Oyster?</strong></p>
+    <p>The Eastern oyster is a shellfish that lives in salty or brackish water. It has a rough, gray shell and stays in one place, attached to rocks or other oysters. It eats by filtering tiny food from the water. Oysters grow in groups called reefs, which also create safe homes for fish, crabs, and other sea creatures.</p>
+    <img src="img/Oyster_side.png" alt="Eastern oyster inside view" style="max-width:100%; height:auto; margin-top:10px;">
+    <p><strong>Why We Should Care</strong></p>
+    <p>Oysters are important, but they are in danger. Pollution, too much freshwater, and hard seawalls make it hard for oysters to grow. They need clean, salty water, soft places to settle, and plenty of oxygen. By helping oysters come back, we also help make the water cleaner, the shoreline stronger, and the harbor full of life again.</p>
+  
+  </details>
+
+  <details>
+    <summary><h1>Methods</h1></summary>
+    <p>We identified suitable oyster habitats by combining environmental monitoring data with species presence records. </p>
+    <p><strong>Environmental Data Collection: </strong>We gathered salinity, temperature, dissolved oxygen, and pH data from monitoring stations, then applied Kriging interpolation to create continuous environmental layers.</p>
+    <p><strong>Suitability Modeling: </strong>Oyster presence points were used to train a <a href="https://biodiversityinformatics.amnh.org/open_source/maxent/" class="plain-link" target="_blank">MaxEnt</a> model, commonly used for species distribution modeling.</p>
+    <p><strong>Visualization: </strong>The resulting raster was converted into a hexagonal grid, with each hexagon assigned a suitability score. This format supports intuitive web-based visualization.</p>
+    <p>The final map highlights areas favorable or unfavorable for oyster survival, based on environmental data and spatial inference.</p>
+  </details>
+
+  <details>
+    <summary><h1>Data Source</h1></summary>
+    <p>Oyster Presence Points: <a href="https://www.billionoysterproject.org/" class="plain-link" target="_blank">Billion Oyster Project</a></p>
+    <p>Water Quality: <a href="https://data.cityofnewyork.us/Environment/Harbor-Water-Quality/5uug-f49n/about_data" class="plain-link" target="_blank">NYC Open Data</a></p>
+    <p>Bathymetry: <a href="https://www.ncei.noaa.gov/maps/bathymetry/" class="plain-link" target="_blank">NOAA</a></p>
+    <p>Waterfront Condition: Collected manually by Josie and Yuki. Covers selected locations only. (Want to contribute? <a href="https://ee.kobotoolbox.org/x/zhhuhbFM" class="plain-link" target="_blank">Submit your own waterfront photo</a>.)</p>
+    <img src="img/waterfront.png" alt="EasternOysterNewYork" style="max-width:100%; height:auto; margin-top:10px;">
+  </details>
+
+  <details>
+    <summary><h1>About Oysterbnb</h1></summary>
+    <p>Where should oysters live? Oysterbnb uses real data to help you find the answer, understand what keeps oysters alive, and see why ecosystems need protecting.</p>
+    <p>
+      <a href="mailto:yl3874@cornell.edu,zhangyuchun17@gmail.com" class="plain-link">Contact us</a> to learn more or get involved.
+    </p>
+  </details>
+  <img src="img/Oyster03.gif" class="learn-more-gif" onclick="showLetter()" alt="Letter">
+</div>
+
+
+
+
+
+    <!---------------------------- right:map -->
+    <div class="map-wrapper">
+  <div id="map"></div>
+
+  <!-- 👇 图层切换器 -->
+  <div id="layer-selector" style="display:none;">
+    <select id="about-layer-select">
+      <option value="predict-click-fill-visible">Predict Suitability</option>
+      <option value="photo-layer">Waterfront Condition</option>
+      <option value="oyster-layer">Oyster Presence Points</option>
+      <option value="Max_Bottom_Salinity">Max Salinity</option>
+      <option value="Min_Bottom_Salinity">Min Salinity</option>
+      <option value="Max_Bottom_pH">Max pH</option>
+      <option value="Min_Bottom_pH">Min pH</option>
+      <option value="Max_Bottom_Temp">Max Temp</option>
+      <option value="Min_Bottom_DO">Min DO</option>
+
+    </select>
+  </div>
+
+  <!-- 图例 -->
+  <div id="legend" class="legend" style="display:none;">
+    <h4 id="legend-title"></h4>
+    <div id="legend-scale"></div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+
+  <script src="script.js"></script>
+
+  <div id="boundary-warning" style="
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  color: #000000;
+  padding: 14px 20px;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+  z-index: 9999;
+  display: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+">
+  😳 Don't go! Stay in New York City!
+</div>
+
+<!-- 放在页面底部也可以 -->
+<div id="letter-popup" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+">
+  <img src="img/Letter01.png" id="letter-img" style="max-width: 90%; max-height: 90%; box-shadow: 0 0 15px white;">
+</div>
+
+
+</body>
+
+</html>
